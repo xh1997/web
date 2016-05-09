@@ -93,6 +93,40 @@ font-family: 'Marmelad-Regular';
 .footer-bottom {
 	margin-top: 1em;
 }
+body{
+	  		 	padding-top: 50px;
+	  	 	}
+	  		 .carousel{
+	  		 	height:500px;
+	  		 	background-color:#000;
+	  	 		margin-bottom: 60px;
+	  		 }
+	  		 .carousel.item{
+	  		 	height:500px;
+	  		 	background-color:#000;
+	  		 }
+	  		   .carousel.img{
+	  	 		width:100%;
+	  		 }
+	  		 #summary-container .col-md-4{
+	  	 		text-align:center;
+	  		 }
+	                 .class1{
+	        		background-color: yellow;
+	        		width: 60px;
+	        		height: 110px;
+	        		float: left;
+	        		margin-right: 20px;
+	        	}
+	        	.a{
+	        		font-weight: 100px;
+	        		height: 100px
+	        	}
+	        	.aug{
+	        		color: #ffffff;
+	        		position:relative;
+	        		left: 7%;
+	        	}
 .footer-top p {
 	font-size: 13px;
 	color: #d5d6d7;

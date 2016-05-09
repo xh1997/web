@@ -1,58 +1,4 @@
-<!DOCTYPE HEML>
-<html lang="zh-CN">
-      	<head>
-  		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>软件开发与测试社团</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-  		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-  		<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   		<script src="/scripts/jquery.min.js"></script>
-  	 	<script src="/bootstrap/js/bootstrap.min.js"></script>
-  		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  		<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  		<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
-  	 	<style>
-	  		 body{
-	  		 	padding-top: 50px;
-	  	 	}
-	  		 .carousel{
-	  		 	height:500px;
-	  		 	background-color:#000;
-	  	 		margin-bottom: 60px;
-	  		 }
-	  		 .carousel.item{
-	  		 	height:500px;
-	  		 	background-color:#000;
-	  		 }
-	  		   .carousel.img{
-	  	 		width:100%;
-	  		 }
-	  		 #summary-container .col-md-4{
-	  	 		text-align:center;
-	  		 }
-	                 .class1{
-	        		background-color: yellow;
-	        		width: 60px;
-	        		height: 110px;
-	        		float: left;
-	        		margin-right: 20px;
-	        	}
-	        	.a{
-	        		font-weight: 100px;
-	        		height: 100px
-	        	}
-	        	.aug{
-	        		color: #ffffff;
-	        		position:relative;
-	        		left: 7%;
-	        	}
-  		 </style>
-        </head>
-    	<body>
-       	  	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	                <ol class="carousel-indicators">
 	    			<li data -target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 	 			<li data-target="#carousel-example-generic" data-slide-to="0"></li>
@@ -156,9 +102,11 @@
 			</div>
 			<div class="container">	
 				<div class="row">
+					<%=  4.times do %>
 					<div class="col-md-3">
 						<a href="index.htm"><img src="http://pic.baike.soso.com/p/20130106/20130106111359-956778976.jpg" style="width: 270px;height: 270px" /><h3>Kimberly Thompson</h3><p>Lorem Ipsum is simply dummy text of<br>the printing and typesetting industry</p></div>
-					<div class="col-md-3">
+						<%end%>
+<!-- 					<div class="col-md-3">
 						<a href="index.htm"><img src="http://pic.baike.soso.com/p/20130106/20130106111359-956778976.jpg" style="width: 270px;height: 270px" />
 						<h3>Kimberly Thompson</h3><p>Lorem Ipsum is simply dummy text of<br>the printing and typesetting industry</p>
 					</div>
@@ -169,7 +117,7 @@
 					<div class="col-md-3">
 						<a href="index.htm"><img src="http://pic.baike.soso.com/p/20130106/20130106111359-956778976.jpg" style="width: 270px;height: 270px" />
 						<h3>Kimberly Thompson</h3><p>Lorem Ipsum is simply dummy text of<br>the printing and typesetting industry</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		<div class="container">
@@ -194,5 +142,3 @@
 				<p class="pull-right"><a href="# " id="toTop" style="display: block;"><span style="opacity: 0;" id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span>回到顶部</a></p>
 			</div>
 		</div>
-	</body>
-</html>
